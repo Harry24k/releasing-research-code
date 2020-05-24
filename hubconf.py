@@ -1,4 +1,6 @@
-dependencies = ['torch']
+dependencies = ['torch', 'torchvision']
+
+import torch
 from torchvision.models.resnet import resnet18 as _resnet18
 
 # resnet18 is the name of entrypoint

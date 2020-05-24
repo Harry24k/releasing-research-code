@@ -19,6 +19,6 @@ def resnet18(pretrained=False, **kwargs):
 
         # For checkpoint saved elsewhere
         checkpoint = 'https://download.pytorch.org/models/resnet18-5c106cde.pth'
-        model.load_state_dict(torch.hub.load_state_dict_from_url(checkpoint, progress=False))
+        model.load_state_dict(torch.hub.load_state_dict_from_url(checkpoint, progress=True))
     
     return model

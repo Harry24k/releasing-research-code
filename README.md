@@ -88,9 +88,19 @@ train_set = datasets.ImageFolder(train_path,transform=transform['val_train'])
 test_set = datasets.ImageFolder(val_path,transform=transform['val_test'])
 ```
 
+
+## Pre-trained Networks
+
+We provide pre-trained networks with torch.hub :
+
+```python
+import torch
+model = torch.hub.load('Harry24k/releasing-research-code', 'resnet18', pretrained=True, force_reload=True)
+```
+
 ## Results
 
-We provide pre-trained networks with differents trunks, we report in the table validation resolution, Top-1 and Top-5 accuracy on ImageNet validation set:
+We report in the table validation resolution, Top-1 and Top-5 accuracy on ImageNet validation set:
 
 Our model achieves the following performance on :
 

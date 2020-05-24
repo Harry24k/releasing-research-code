@@ -5,7 +5,7 @@
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
-https://github.com/facebookresearch/FixRes/blob/master/image/image2.png
+<img src="https://github.com/facebookresearch/FixRes/blob/master/image/image2.png" height="190">
 
 FixRes is a simple method for fixing the train-test resolution discrepancy. 
 It can improve the performance of any convolutional neural network architecture.

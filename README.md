@@ -1,4 +1,5 @@
-> 📋A template README.md for code accompanying a Machine Learning paper
+> 📋A template README.md from https://github.com/facebookresearch/FixRes + https://github.com/Harry24k/releasing-research-code
+
 
 # My Paper Title
 

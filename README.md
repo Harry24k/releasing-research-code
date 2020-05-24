@@ -1,4 +1,4 @@
-> 📋A template README.md from https://github.com/facebookresearch/FixRes + https://github.com/Harry24k/releasing-research-code
+> 📋A template README.md from https://github.com/facebookresearch/FixRes + https://github.com/paperswithcode/releasing-research-code
 
 
 # My Paper Title
